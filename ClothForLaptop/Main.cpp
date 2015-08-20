@@ -13,7 +13,7 @@ void init()
 	glEnable(GL_DEPTH_TEST);
 	glEnable(GL_COLOR_MATERIAL);
 	glEnable(GL_LIGHT0);
-	GLfloat lightPosition[4] = { 1.0, 1.0, 1.0, 0.0 }; //light cominmg from upper right
+	GLfloat lightPosition[4] = { 1.0, 1.0, 1.0, 0.0 }; //light coming from upper right
 	glLightfv(GL_LIGHT0, GL_POSITION, (GLfloat *)&lightPosition);
 	glEnable(GL_LIGHT0);
 	glLightModeli(GL_LIGHT_MODEL_TWO_SIDE, GL_TRUE);
